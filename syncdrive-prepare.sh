@@ -4,9 +4,8 @@ set -euo pipefail
 DEVICE="/dev/sda1"
 MOUNT_POINT="/media/${USER}/SyncDrive"
 LABEL="SyncDrive"
-USER="nathalie"
 LOG_DIR="$HOME/logs-syncdrive"
-LOG_FILE="$LOG_DIR/prepare-$(date +%Y-%m-%d_%H-%M-%S).log"
+LOG_FILE="$LOG_DIR/syncdrive-prepare-$(date +%Y-%m-%d_%H-%M-%S).log"
 
 mkdir -p "$LOG_DIR"
 

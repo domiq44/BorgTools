@@ -11,7 +11,7 @@ EXPECTED_MOUNT="/media/${USER}/SyncDrive"
 USER_NAME="$USER"
 
 LOG_DIR="$HOME/logs-backup"
-LOG_FILE="$LOG_DIR/backup_home_to_ext-$(date +%Y-%m-%d_%H-%M-%S).log"
+LOG_FILE="$LOG_DIR/syncdrive-backup-$(date +%Y-%m-%d_%H-%M-%S).log"
 
 mkdir -p "$LOG_DIR"
 

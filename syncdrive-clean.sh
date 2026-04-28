@@ -3,7 +3,7 @@ set -euo pipefail
 
 TARGET="/media/${USER}/SyncDrive"
 LOG_DIR="$HOME/logs-backup"
-LOG_FILE="$LOG_DIR/clean_syncdrive-$(date +%Y-%m-%d_%H-%M-%S).log"
+LOG_FILE="$LOG_DIR/syncdrive-clean-$(date +%Y-%m-%d_%H-%M-%S).log"
 
 mkdir -p "$LOG_DIR"
 
