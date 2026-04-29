@@ -1,4 +1,3 @@
-```markdown
 # BorgTools — Gestion complète des sauvegardes BorgBackup
 
 BorgTools est un ensemble de scripts Bash destinés à automatiser la gestion d’un
@@ -226,6 +225,4 @@ améliorations, nouvelles exclusions, support multi-disques, timers systemd, etc
 
 Merci d’utiliser BorgTools !  
 Ces scripts ont été conçus pour offrir une solution simple, robuste et fiable pour les sauvegardes personnelles sous Linux.
-```
-
 
